@@ -46,14 +46,14 @@
 | ⬜ Object-based programming    | 🟦 Private fields     | 🟩 Circular list     |                          |
 | 🟦 Generic programming         | 🟦 Field declarations | 🟩 Trees             |                          |
 | 🟦 Concurrent computing        | 🟦 Inheritance        | 🟩 Graphs            |                          |
-| 🟦 Asyncronous programming     | 🟦 Parent class       | 🟩 Functor           |                          |
-| 🟦 Parallel programming        | 🟩 Polymorphism       | 🟩 Functional object |                          |
+| 🟩 Asyncronous programming     | 🟦 Parent class       | 🟩 Functor           |                          |
+| 🟩 Parallel programming        | 🟩 Polymorphism       | 🟩 Functional object |                          |
 | 🟦 Reactive programming        | 🟦 Abstract class     | ⬜ Monad             |                          |
 | ⬜ FRP (Functional-reactive)   | 🟦 Interface          | 🟩 Generator         |                          |
 | 🟦 Automata-based programming  | 🟦 Encapsulation      | 🟦 Iterator          |                          |
 | 🟦 Domain-specific languages   | ⬜ Hidden class       | 🟦 Async Iterator    |                          |
 | 🟦 Multi-paradigm programming  | ⬜ Object form        |                      |                          |
-| ⬜ Metaprogramming             | 🟦 instance           |                      |                          |
+| ⬜ Metaprogramming             | 🟩 instance           |                      |                          |
 | ⬜ Actor model                 | ⬜ Introspection      |                      |                          |
 |                                | ⬜ Reflection         |                      |                          |
 
@@ -61,7 +61,7 @@
 
 | Async contracts        | JavaScript & Node.js specific  | Theory              | Techniques            |
 |------------------------|--------------------------------|---------------------|-----------------------|
-| 🟩 Callback-last       | 🟩 Timers                      | 🟦 Event Loop       | ⬜ async.js library   |
+| 🟩 Callback-last       | 🟩 Timers                      | 🟩 Event Loop       | ⬜ async.js library   |
 | 🟩 Error-first         | 🟩 setImmediate                | 🟦 Async error      | ⬜ Async composition  |
 | 🟩 Promise             | 🟦 nextTick                    | 🟩 try..catch       | ⬜ Rx.js              |
 | 🟦 Async function      | ⬜ AbortController             | 🟦 Non-blocking     | 🟦 Sequential async   |
